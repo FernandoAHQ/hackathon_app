@@ -173,7 +173,7 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.pushNamed(context, 'chat-detail');
+          Navigator.pushNamed(context, 'meet');
         },
         child: const Icon(Icons.chat),
       ),

@@ -1,11 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hackatec">
+    package="com.example.hackatec"
+    xmlns:tools="http://schemas.android.com/tools">
 
      
       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:usesCleartextTraffic="true"
+        tools:replace="android:label"
         android:label="hackatec"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
